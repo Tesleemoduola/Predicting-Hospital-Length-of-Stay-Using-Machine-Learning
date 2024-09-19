@@ -9,9 +9,11 @@
 
 
 ## Project Overview
-Diabetes Mellitus is one of the leading cause of morbidity and mortality. This project focuses on building a machine learning model to predict
-whether a patient is likely to develop diabetes based on various medical attributes. The goal is to identify patterns that can help in early 
-diagnosis and improve patient outcomes.
+Predicting Hospital Stay Using Machine Learning project focuses on predicting patients' hospital length of stay 
+using machine learning techniques. By analyzing various patient data, including demographic, clinical, and hospital-related features, the project aims 
+to develop models that can forecast stay durations with greater precision. This prediction is crucial for optimizing hospital resource management, 
+improving patient outcomes, and reducing costs. The project leverages advanced machine learning algorithms and  hyperparameter tuning technique to 
+ensure robust and reliable predictions, ultimately leading to a better healthcare planning and efficiency.
 
 ![Picture](lhs2.jpg)
 
@@ -37,7 +39,7 @@ Data preprocessing was done to prepare the data for modelling
 - Random Forest Classifier
 - Naive Bayes 
 - CatBoost Classifier were imported
-The classifiers were trained on the training dataset, and evaluated on the test subset of the dataset.
+- The classifiers were trained on the training dataset, and evaluated on the test subset of the dataset.
 
 ## Model Deployment
 The model was deployed using Streamlit
